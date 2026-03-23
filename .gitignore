@@ -1,0 +1,22 @@
+node_modules/
+dist/
+
+# n8n local data (created by n8n-node dev)
+.n8n/
+.n8n-node-cli/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+*.local
+
+# AI agent instructions (internal dev tooling)
+.agents/
+CLAUDE.md
+AGENTS.md
+
+# Environment / secrets
+.env
+.env.*
