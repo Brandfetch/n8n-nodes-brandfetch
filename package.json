@@ -1,6 +1,6 @@
 {
 	"name": "@brandfetch/n8n-nodes-brandfetch",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "The official n8n community node for Brandfetch API — Tap into the most complete library of brand logos, data, and assets.",
 	"license": "MIT",
 	"homepage": "https://brandfetch.com/developers",
