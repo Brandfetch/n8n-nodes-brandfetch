@@ -24,14 +24,6 @@ export class BrandfetchApi implements ICredentialType {
 			default: '',
 			description: 'Used for the Brand resource',
 		},
-		{
-			displayName: 'Client ID',
-			name: 'clientId',
-			type: 'string',
-			typeOptions: { password: true },
-			default: '',
-			description: 'Used for the Search resource',
-		},
 	];
 
 	authenticate: IAuthenticateGeneric = {

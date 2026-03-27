@@ -6,14 +6,16 @@
 	"homepage": "https://brandfetch.com/developers",
 	"keywords": [
 		"n8n-community-node-package",
+		"n8n-nodes",
 		"brandfetch",
 		"logo",
+		"colors",
+		"fonts",
 		"brand",
 		"brand data",
 		"brand assets",
 		"brand identity",
-		"colors",
-		"fonts"
+		"company data"
 	],
 	"author": {
 		"name": "Brandfetch",
@@ -50,10 +52,10 @@
 	},
 	"devDependencies": {
 		"@n8n/node-cli": "*",
-		"eslint": "9.32.0",
-		"prettier": "3.6.2",
-		"release-it": "^19.0.4",
-		"typescript": "5.9.2"
+		"eslint": "^9.39.3",
+		"prettier": "^3.8.1",
+		"release-it": "^19.2.4",
+		"typescript": "^5.9.3"
 	},
 	"peerDependencies": {
 		"n8n-workflow": "*"

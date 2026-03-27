@@ -1,6 +1,5 @@
 import { NodeConnectionTypes, type INodeType, type INodeTypeDescription } from 'n8n-workflow';
 import { brandDescription } from './resources/brand';
-import { searchDescription } from './resources/search';
 
 export class Brandfetch implements INodeType {
 	description: INodeTypeDescription = {
@@ -41,15 +40,10 @@ export class Brandfetch implements INodeType {
 						name: 'Brand',
 						value: 'brand',
 					},
-					{
-						name: 'Search',
-						value: 'search',
-					},
 				],
 				default: 'brand',
 			},
 			...brandDescription,
-			...searchDescription,
 		],
 	};
 }
