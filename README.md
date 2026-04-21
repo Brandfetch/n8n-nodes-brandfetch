@@ -1,6 +1,8 @@
 # @brandfetch/n8n-nodes-brandfetch
 
-This is an n8n community node. It lets you use the [Brandfetch API](https://brandfetch.com/developers) in your n8n workflows to retrieve brand assets such as logos, colors, company data.
+[Brandfetch](https://brandfetch.com) is the brand data infrastructure that gives you instant access to logos, colors, and company information for millions of brands — all from a single API.
+
+This community node brings the [Brandfetch API](https://brandfetch.com/developers) into your [n8n](https://n8n.io/) workflows, so you can enrich data, automate brand asset retrieval, and build pipelines around brand identity without leaving your automation stack.
 
 [n8n](https://n8n.io/) is a [fair-code licensed](https://docs.n8n.io/sustainable-use-license/) workflow automation platform.
 
@@ -16,13 +18,13 @@ Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes
 
 ## Operations
 
-- **Get Brand** — Fetch logos, colors, and company data by domain, stock/ETF ticker, ISIN or crypto.
+- **Get Brand** — Get logos, colors, and company data by domain, stock/ETF ticker, ISIN or crypto.
 
 ## Credentials
 
 This node uses two credentials depending on the resource:
 
-- **API Key** — used for the **Brand** resource. Sent as `Authorization: Bearer <key>`.
+- **API Key** — used for the **Brand** resource. Sent as `Authorization: Bearer <secretKey>`.
 
 Both can be found in your [Brandfetch developer dashboard](https://developers.brandfetch.com). Add them to the Brandfetch credential in n8n.
 
@@ -32,5 +34,6 @@ Compatible with n8n@1.60.0 or later.
 
 ## Resources
 
-- [n8n community nodes documentation](https://docs.n8n.io/integrations/#community-nodes)
+- [Brandfetch developers dashboard](https://developers.brandfetch.com)
 - [Brandfetch API documentation](https://docs.brandfetch.com)
+- [n8n community nodes documentation](https://docs.n8n.io/integrations/#community-nodes)
